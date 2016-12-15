@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Reservations</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<script type="text/javascript" src="dropdown.js"></script>	
+<style>
+#field {
+	width:500px;
+	border:2px solid #095d00;}
+</style>
+</head>
+<body>
+<script>
+window.alert("Make your reservation today!");
+</script>
+<div id="rightc">
+	<ul class="nav">
+  <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+  <li><a href="services.html">Services</a></li>
+   <header class="righthead"> 
+ <h1>Make a Reservation</h1>
+ </header>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Contact</a>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="contact.html">General Contact</a>
+      <a href="reserve.html">Request a Reservation</a>
+    </div>
+	<li><a href="gallery.html">Gallery</a></li>
+  </li>
+</ul>
+ <div id="rightcol">
+ <header>
+ <img class="banner" src="C:\Users\obadi\Documents\Fall 2016\INFO 202\Group Project\pictures\animalbanner.jpg" >
+ </header>
+ <hr>
+ <main>
+ <div id="hours">
+ <h5 style="text-align:center;">Hours of Operation</h5>
+	<ul id="hourchart">
+		<li>Monday.............9:00am-9:00pm</li>
+		<li>Tuesday...........7:00am-9:00pm</li><br>
+		<li>Wednesday.........7:00am-9:00pm</li><br>
+		<li>Thursday..........7:00am-9:00pm</li><br>
+		<li>Friday............7:00am-9:00pm</li><br>
+		<li>Sat. & Sun........10:00am-10:00pm</li>
+	</ul>
+</div>	
+<form>
+		<fieldset id = "field">
+<legend>Reserve Your Spot Now!</legend>
+	<label><input type="text" name="first" placeholder="First Name"></label> &nbsp
+	<label><input type="text" name="last" placeholder="Last Name"></label><br>
+	<label><input type="text" name="email" placeholder="me@example.com"></label> &nbsp
+	<input type="text" name="user" placeholder="Phone Number">
+	<br>
+	Questions and Concerns:
+	<br>
+	<textarea name="comments" id="comments" cols="40" rows="3">Tell us what you need!</textarea>
+	<br><br><input type="submit" value="Reserve">
+	<input type="reset">
+	</fieldset>
+	
+ </main>
+<br><br>
+<footer id="footer">
+	&copy; 2016 Richmond Pet Hotel & Spa 
+	<br>
+	1234 Pet Spa Circle
+	<br>
+	Richmond, VA 23220
+	
+</footer>
+</body>
+</html>

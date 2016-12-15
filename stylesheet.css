@@ -1,0 +1,97 @@
+body {
+	background-color:#d6d6d6;
+}
+#rightc {
+	background-color:#d6d6d6;
+	width: 100%;
+	float:right;
+
+}
+header h1 {
+	color:white;
+	margin-right:10px;
+}
+.righthead {
+	float:right;
+}
+footer {
+	color:#d6d6d6;
+	background-color:#333;
+	height:100px;
+	width:100%;
+	text-align:center;
+	font-size:70%;
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #53df50;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #53df50;}
+
+.show {display:block;}
+
+#hours {
+	width:25%; height:200px; background-color: #53df50;
+	float:right;
+	display:inline-block;
+
+	border:solid white 2px;
+
+}
+#hourchart {
+	list-style-type:none;
+	margin-right:40px;
+}
+.banner {
+	position:center;
+	height:200px; display:block;
+	margin-left:auto; margin-right:auto;
+	border-radius:5px;
+	border:solid white 2px;
+}
+#footer {
+	  position:absolute;
+   
+}
+h2 {color:#53df50; }
+	p {font-size:1.3em;}
